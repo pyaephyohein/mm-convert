@@ -2,7 +2,7 @@ import myanmar.encodings
 import myanmar.converter
 
 def main():
-    text = input("Import Unicode: ")
+    text = input("Unicode Here >>>  ")
     conv = myanmar.converter.convert(text,'unicode','zawgyi')
     print(f'Zawgyi is >>>{conv}')
 
