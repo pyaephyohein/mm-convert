@@ -1,2 +1,2 @@
 Flask == 1.1.1
-python-myanmar ==1.8.1
+python-myanmar == 1.8.1
