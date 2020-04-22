@@ -3,7 +3,7 @@
 To run in local <br>
 cd mm-convert
 ```
-pip3 imstall -r requirement.txt
+pip3 istall -r requirement.txt
 ```
 
 To run with docker <br>
