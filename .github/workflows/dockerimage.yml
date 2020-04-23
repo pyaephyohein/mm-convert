@@ -20,10 +20,9 @@ jobs:
       run: docker build -t mm-convert:$(date +%s) .
     - name: Tags
       run: |
-        docker tag back ${{ secrets.DOCKER_USER }}/back:${{ github.sha }}
-        docker tag back ${{ secrets.DOCKER_USER }}/back:latest
+        docker tag mm-convert ${{ secrets.DOCKER_USER }}/mm-convert:${{ github.sha }}
+        docker tag mm-convert ${{ secrets.DOCKER_USER }}/mm-convert:latest
     - name: Push 
-      run : |
-        docker tag   
-        docker push ${{ secrets.DOCKER_USER }}/back:latest
+      run : |   
+        docker push ${{ secrets.DOCKER_USER }}/mm-convert:latest
 
